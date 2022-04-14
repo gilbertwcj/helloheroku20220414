@@ -1,0 +1,30 @@
+{
+  "name": "helloheroku20220414",
+  "description": "a demo to learn heroku platform",
+  "keywords": [
+    "demo"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "protocol",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "uuid",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket path",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/DaoChen6/Heroku-v2ray",
+  "repository": "https://github.com/Rii23/Heroku-v2ray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
